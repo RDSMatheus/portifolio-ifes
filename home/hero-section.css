@@ -1,0 +1,42 @@
+.hero-section {
+  gap: 20px;
+  grid-template-columns: 1fr 1fr;
+}
+.hero-section-conteudo {
+  background-color: var(--cor-12);
+  border-radius: 4px;
+  padding: 40px;
+}
+
+.hero-section-conteudo h2 {
+  color: #ffd166;
+}
+.hero-section-img img {
+  max-width: 100%;
+  object-fit: cover;
+  width: 100%;
+  min-height: 320px;
+}
+.sumario dl {
+  grid-template-columns: 1fr 4fr;
+}
+.sumario a {
+  color: inherit;
+  display: inline-block;
+}
+@media (max-width: 800px){
+  .hero-section{
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 600px){
+  .sumario dl {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+  .sumario a {
+    padding: 10px;
+    background: var(--cor-1);
+    border-radius: 4px;
+  }
+}

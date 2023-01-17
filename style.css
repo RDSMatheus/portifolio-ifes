@@ -1,0 +1,15 @@
+/* css global */
+@import "./global/global.css";
+@import "./global/header.css";
+@import "./global/footer.css";
+
+
+/* utilidades */
+@import "./utilidades/cores.css";
+@import "./utilidades/componentes.css";
+@import "./utilidades/font.css";
+@import "./utilidades/margin.css";
+
+/* home */
+@import "./home/hero-section.css";
+@import "./home/sumario.css";

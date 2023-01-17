@@ -1,0 +1,11 @@
+.footer-bg {
+  background-color: #fff;
+}
+.footer {
+  gap: 10px;
+  place-content: center;
+  padding: 20px;
+}
+.footer img {
+  max-width: 100px;
+}
