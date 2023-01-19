@@ -13,3 +13,7 @@
 /* home */
 @import "./home/hero-section.css";
 @import "./home/sumario.css";
+
+/* quem sou */
+
+@import "./quemsou/quemsou.css";

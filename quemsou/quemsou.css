@@ -1,0 +1,71 @@
+.quem-sou-bg {
+  background: linear-gradient(to right, var(--cor-11) 70%, var(--cor-0) 0);
+}
+.minibio {
+  padding: 20px;
+}
+.capacidades {
+  grid-template-columns: 1fr 1fr;
+}
+.capacidades-habilidade {
+  padding: 40px;
+  border-radius: 4px;
+}
+.capacidades-idiomas {
+  background-color: var(--cor-12);
+  padding: 40px;
+  border-radius: 4px;
+}
+.capacidades-idiomas ul li:nth-child(1)::after {
+  content: " ";
+  display: block;
+  width: 100px;
+  height: 10px;
+  background: var(--cor-1);
+  border-radius: 4px;
+}
+.capacidades-idiomas ul li:nth-child(2)::after {
+  content: " ";
+  display: block;
+  width: 100px;
+  height: 10px;
+  background: linear-gradient(to right, var(--cor-1) 30%, var(--cor-9) 0);
+  border-radius: 4px;
+}
+
+.capacidades-habilidade ul li {
+  display: flex;
+  justify-content: space-between;
+}
+.capacidades-habilidade ul li:nth-child(1)::after {
+  content: " ";
+  display: block;
+  width: 100px;
+  height: 10px;
+  background: var(--cor-1);
+  border-radius: 4px;
+}
+.capacidades-habilidade ul li:nth-child(2)::after {
+  content: " ";
+  display: block;
+  width: 100px;
+  height: 10px;
+  background: linear-gradient(to right, var(--cor-1) 30%, var(--cor-9) 0);
+  border-radius: 4px;
+}
+.capacidades-habilidade ul li:nth-child(3)::after {
+  content: " ";
+  display: block;
+  width: 100px;
+  height: 10px;
+  background: linear-gradient(to right, var(--cor-1) 80%, var(--cor-9) 0);
+  border-radius: 4px;
+}
+.capacidades-habilidade ul li:nth-child(4)::after {
+  content: " ";
+  display: block;
+  width: 100px;
+  height: 10px;
+  background: linear-gradient(to right, var(--cor-1) 80%, var(--cor-9) 0);
+  border-radius: 4px;
+}
