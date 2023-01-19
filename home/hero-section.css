@@ -17,10 +17,15 @@
   width: 100%;
   min-height: 320px;
 }
-.sumario dl {
-  grid-template-columns: 1fr 4fr;
+.sumario dl div {
+  padding: 20px;
 }
+.sumario dl div:nth-child(even) {
+  background-color: var(--cor-9);
+}
+
 .sumario a {
+  margin-bottom: 8px;
   color: inherit;
   display: inline-block;
 }

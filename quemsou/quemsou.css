@@ -33,9 +33,10 @@
   border-radius: 4px;
 }
 
-.capacidades-habilidade ul li {
+.capacidades ul li {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .capacidades-habilidade ul li:nth-child(1)::after {
   content: " ";
