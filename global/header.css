@@ -2,22 +2,24 @@ body {
   background-color: var(--cor-0);
 }
 .header-bg {
-  background: linear-gradient(var(--cor-12) 400px, var(--cor-0) 0);
+  background: var(--cor-12);
 }
 .header {
-  max-width: 1000px;
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 1fr 3fr;
   margin: 0 auto;
-  gap: 20px;
+  gap: 40px;
   padding-top: 60px;
   padding-bottom: 60px;
   align-items: center;
 }
-
+.header-img{
+  display: flex;
+  justify-content: end;
+}
 .header-img img {
   max-width: 100%;
-  height: 400px;
+  height: 200px;
   object-fit: cover;
   object-position: top;
 }
