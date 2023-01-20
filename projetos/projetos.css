@@ -1,0 +1,84 @@
+#galeria div {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+#galeria div img {
+  max-height: 250px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#galeria div img:hover {
+  margin-top: -10px;
+  outline: solid 4px var(--cor-3);
+}
+#principal {
+  display: none;
+}
+.galeria-bg {
+  background: var(--cor-9);
+}
+.galeria-conteudo {
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  align-items: center;
+  padding-bottom: 40px;
+}
+.galeria-conteudo img {
+  max-height: 400px;
+  justify-self: end;
+  object-fit: cover;
+  object-position: center;
+}
+.borda {
+  outline: solid 1px var(--cor-1);
+  box-shadow: 0 5px 2px var(--cor-3);
+}
+
+.site1,
+.site2,
+.site3 {
+  display: none;
+}
+
+.site1.ativo,
+.site2.ativo,
+.site3.ativo {
+  display: grid;
+  gap: 30px;
+}
+
+.site1 a,
+.site2 a,
+.site3 a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  place-self: start;
+}
+#principal.ativo {
+  display: block;
+}
+.site1.ativo a::after,
+.site2.ativo a::after,
+.site3.ativo a::after {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url("../img/import-left-2-svgrepo-com.svg");
+}
+@media (max-width: 800px) {
+  .galeria-conteudo {
+    grid-template-columns: 1fr;
+  }
+  .galeria-conteudo img {
+    place-self: center;
+  }
+  #galeria div img {
+    min-height: 150px;
+    object-fit: cover;
+  }
+}

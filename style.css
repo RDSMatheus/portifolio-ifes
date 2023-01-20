@@ -3,7 +3,6 @@
 @import "./global/header.css";
 @import "./global/footer.css";
 
-
 /* utilidades */
 @import "./utilidades/cores.css";
 @import "./utilidades/componentes.css";
@@ -12,8 +11,10 @@
 
 /* home */
 @import "./home/hero-section.css";
-@import "./home/sumario.css";
 
 /* quem sou */
 
 @import "./quemsou/quemsou.css";
+
+/* projetos */
+@import "./projetos/projetos.css";

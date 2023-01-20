@@ -18,6 +18,7 @@
   background-color: var(--cor-12);
   padding: 40px;
   border-radius: 4px;
+  box-shadow: 0 2px 1px var(--cor-1);
 }
 .capacidades-idiomas ul li:nth-child(1)::after {
   content: " ";
@@ -107,6 +108,7 @@
   }
   .capacidades-idiomas {
     padding: 20px;
+    box-shadow: inherit;
   }
 }
 @media (max-width: 600px) {
