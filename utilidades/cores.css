@@ -1,11 +1,12 @@
 :root {
-  --cor-0: #FFFFFF;
+  --cor-0: #ffffff;
   --cor-1: #fba92c;
-  --cor-3: #FFDf6C;
+  --cor-3: #ffdf6c;
+  --cor-8: #d3d3d3;
   --cor-9: #eeeeee;
   --cor-10: #707070;
-  --cor-11: #3F3F3F;
-  --cor-12: #202020; 
+  --cor-11: #3f3f3f;
+  --cor-12: #202020;
 }
 
 .cor-0 {
@@ -17,8 +18,17 @@
 .cor-3 {
   color: var(--cor-3);
 }
+.cor-8 {
+  color: var(--cor-8);
+}
 .cor-9 {
   color: var(--cor-9);
+}
+.cor-10 {
+  color: var(--cor-10);
+}
+.cor-11 {
+  color: var(--cor-11);
 }
 .cor-12 {
   color: var(--cor-12);

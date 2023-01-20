@@ -24,11 +24,6 @@
   background-color: var(--cor-9);
 }
 
-.sumario a {
-  margin-bottom: 8px;
-  color: inherit;
-  display: inline-block;
-}
 @media (max-width: 800px){
   .hero-section{
     grid-template-columns: 1fr;
@@ -38,10 +33,5 @@
   .sumario dl {
     grid-template-columns: 1fr;
     gap: 10px;
-  }
-  .sumario a {
-    padding: 10px;
-    background: var(--cor-1);
-    border-radius: 4px;
   }
 }
