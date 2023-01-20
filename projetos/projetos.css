@@ -61,14 +61,14 @@
 #principal.ativo {
   display: block;
 }
-.site1.ativo a::after,
-.site2.ativo a::after,
-.site3.ativo a::after {
-  content: "";
+#site1.ativo a::after,
+#site2.ativo a::after,
+#site3.ativo a::after {
+  content: " ";
   display: inline-block;
   width: 20px;
   height: 20px;
-  background: url("../img/import-left-2-svgrepo-com.svg");
+  background: url("../img/site.svg");
 }
 @media (max-width: 800px) {
   .galeria-conteudo {
