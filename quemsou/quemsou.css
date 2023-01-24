@@ -86,17 +86,16 @@
   align-items: center;
 }
 .experiencia span {
-  position: relative;
+  display: flex;
+  gap: 8px;
+  align-items: center;
 }
 .experiencia span::before {
-  content: "";
-  background: url("../img/date-svgrepo-com.svg");
+  content: url("../img/date-svgrepo-com.svg");
   width: 20px;
   height: 20px;
   display: inline-block;
-  position: absolute;
-  left: -20px;
-  top: -5px;
+  
 }
 
 @media (max-width: 800px) {
